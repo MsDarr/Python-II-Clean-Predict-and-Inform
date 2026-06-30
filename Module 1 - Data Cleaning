@@ -1,0 +1,98 @@
+Topics for this Module:
+
+1.1 Data Issues 
+1.2 variable Identification and Data Structuring 
+1.3 Univariate & Bivariate Analysis
+1.4 Missing Data and Imputation 
+------------------------------------------------------------------------------------------------------------
+Learning Outcomes for this Module 
+
+- Identify issues in a given data set 
+- Clean and prepare data for analysis 
+- Impute missing data 
+
+-----------------------------------------------------------------------------------------------------------
+Whata are the most common data issues you have come across in the past ?
+What challenges do they pose ? How do you usually deal with them ? 
+
+Common Data Issues 
+§ Inconsistently format (416-123-4567 vs. 4161234567)
+§ Incorrectly captured data (Toronot vs Toronto)
+§ Concatenated data (TorontoON, A1A1A1ON)
+§ Irrelevant data (Capturing age, but not birthdate)
+§ False data (fake birthdate, fake name)
+§ Incomplete data (John S. vs John Smith)
+§ Missing data
+§ Wrong data type
+
+---------------------------------------------------------------------------------------------------------
+Why do data issues occur?
+Collection mechanisms (e.g. data entry form) may be
+inconsistent or open-ended
+§ Input errors
+§ Non-mandatory fields
+§ System glitches
+
+Dealing With Data Issues
+§ Re-collection and verification
+§ Data clean-up with Python
+§ System updates
+§ Missing data imputation
+
+--------------------------------------------------------------------------------------------------------
+Module 1 -Section 2 ( Variable Identification and Data Structuring )
+
+Variable Identification 
+Variable identification refers to understanding what is meant by
+each variable in your data set. For example:
+• Dollar amounts (in millions? Thousands?)
+• Population (of a country? City? Sample?)
+• Abbreviations
+• Acronyms
+
+Action: build a data dictionary for your data set to ensure all
+stakeholders, and team members, are aligned.
+-
+Data Structuring  
+Data should be organized such that it can be interpreted by
+statistical software.
+Guidelines:
+1. Each variable should have its own column
+2. Each observation should have its own row
+3. Each value should have its own cell
+4. Multiple tables should be joined by a column
+
+-----------------------------------------------------------------------------------------------------
+Mdodule 1 - Seciton 3
+Univariate and Bivariate Analysis 
+
+Univariate Analysis
+Univariate Analysis refers to understanding the distribution of
+each variable. Consider the following:
+1. Does the range make sense?
+2. Does the distribution make sense?
+3. Should there be negative values? Zeros? N/As?
+4. Is the data coded correctly?
+
+Univariate Analysis in Python
+Summary statistics can be used to review individual variables:
+
+• Mean
+• Median
+• Mode
+• Range
+• Standard Deviation
+• Variance
+
+In addition, visualizing data helps. For distributions, consider
+histograms, and for time series – line charts.
+
+----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
